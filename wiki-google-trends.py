@@ -17,7 +17,7 @@ st.markdown("""
 
 st.markdown("""
 <p class="big-font">Wiki and Google Trends</p>
-<p>Compare Wiki Search and Google Search Trends</p>
+<p>Compare Wikipedia Search and Google Search Trends. 3 month range available for Wiki. 12 Month for Google because 3 month view is always a rollercoaster.</p>
 <b>Directions: </b></ br><ol>
 <li>Try to be concise and specific. Wiki doesn't handle disambiguation and variations well</li>
 </ol>
