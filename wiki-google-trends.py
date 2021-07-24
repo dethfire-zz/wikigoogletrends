@@ -20,6 +20,7 @@ st.markdown("""
 <p>Compare Wikipedia Search and Google Search Trends. 3 month range available for Wiki. 12 Month for Google because 3 month view is always a rollercoaster.</p>
 <b>Directions: </b></ br><ol>
 <li>Try to be concise and specific. Wiki doesn't handle disambiguation and variations well. Think entity names.</li>
+<li>Capitolize the first word of each word in your keyword phrase. Wiki is case sensitive.</li>
 </ol>
 """, unsafe_allow_html=True)
 
