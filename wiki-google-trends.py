@@ -29,7 +29,7 @@ with st.form("data"):
     submitted = st.form_submit_button("Process")
 
     if submitted:
-        query1 = query
+        query1 = string.capwords(query)
         query = string.capwords(query)
         query = query.replace(" ","_")
 
