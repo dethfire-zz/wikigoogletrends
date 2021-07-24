@@ -4,6 +4,7 @@ import json
 from pytrends.request import TrendReq
 import streamlit as st
 import matplotlib.pyplot as plt
+import string
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -30,6 +31,7 @@ with st.form("data"):
 
     if submitted:
         query1 = query
+        query = string.capwords(query)
         query = query.replace(" ","_")
 
         url = f'https://en.wikipedia.org/w/api.php?action=query&prop=pageviews&titles={query}&format=json'
