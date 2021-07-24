@@ -29,7 +29,7 @@ with st.form("data"):
 
     if submitted:
         query1 = query
-        query = query.replace(" ","%20")
+        query = query.replace(" ","_")
 
         url = f'https://en.wikipedia.org/w/api.php?action=query&prop=pageviews&titles={query}&format=json'
         payload={}
